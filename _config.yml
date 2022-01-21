@@ -27,6 +27,7 @@ author:
 # URL settings
 url: "" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
+baseurl: ""
 
 markdown: kramdown
 kramdown:
