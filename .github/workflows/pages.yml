@@ -22,7 +22,7 @@ jobs:
           bundler-cache: true
       - run: npm install
       - run: npm run prod
-      - runL bundle exec jekyll clean
+      - run: bundle exec jekyll clean
       - run: bundle exec jekyll build
       - uses: peaceiris/actions-gh-pages@v3
         with:
