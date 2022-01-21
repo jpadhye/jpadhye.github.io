@@ -6,27 +6,27 @@ description: >-
   Ephesus - Minimalist Jekyll Theme
 lang: en-US
 timezone:  Europe/Istanbul
-repo: https://github.com/onepase/Ephesus # site repo [optional]
+repo: https://github.com/jpadhye/Ephesus # site repo [optional]
 google_verify:      XXX # Put your Google Verification here
 google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
 discus-identifier:  XXX
 
 # Author settings
 author:
-  name: Hakan Torun
-  bio: Computer Engineer @pardinus <br> Founder @zaqa <br> Open Source /#linux
+  name: Jaideep Padhye
+  bio: Engineering Leader @AppDynamics <br> Open Source Enthusiast
   picture: assets/images/profile.jpg 
-  github: onepase # github username
-  twitter: onepase # twitter username
-  facebook: onepase # facebook username
-  instagram: onepase # instagram username
-  youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
-  linkedin: hakantorun # linkedin username
-  email: your-email@email.com # email adress
+  github: jpadhye # github username
+  #twitter: jpadhye # twitter username
+  #facebook: jpadhye # facebook username
+  instagram: jpadhye # instagram username
+  #youtube: https://www.youtube.com/channel/UCMmAto-wxBootXN91AzBiDg # youtube username
+  linkedin: jpadhye # linkedin username
+  #email: your-email@email.com # email adress
 
 
 # URL settings
-url: "http://127.0.0.1:4000" # Domain Name of host. [username].github.io for github pages
+url: "jpadhye.github.io" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
