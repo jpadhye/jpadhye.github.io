@@ -25,7 +25,7 @@ author:
 
 
 # URL settings
-url: "jpadhye" # Domain Name of host. [username].github.io for github pages
+url: "" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
@@ -40,6 +40,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - "package*.json"
+  - "*.config.js"
+
 
 
 plugins:
