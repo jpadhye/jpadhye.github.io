@@ -1,12 +1,11 @@
 # Site settings
-site: Ephesus
-title: Ephesus - Minimalist Jekyll Theme
-keywords: ephesus, blog
-description: >-
-  Ephesus - Minimalist Jekyll Theme
+site: Jaideep Padhye
+title: Jaideep Padhye
+keywords: blog
+description: Jaideep Padhye
 lang: en-US
-timezone:  Europe/Istanbul
-repo: https://github.com/jpadhye/Ephesus # site repo [optional]
+timezone:  America/Los_Angeles
+repo: https://github.com/jpadhye/jpadhye.github.io # site repo [optional]
 google_verify:      XXX # Put your Google Verification here
 google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
 discus-identifier:  XXX
@@ -40,9 +39,8 @@ exclude:
   - .obsidian
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
   - README.md
-  - CONTRIBUTING.md
+
 
 plugins:
   - jekyll-paginate
