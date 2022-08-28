@@ -17,7 +17,8 @@
 	"settings": {},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"rebornix.Ruby"
+		"rebornix.Ruby",
+		"znck.grammarly"
 	],
 	"mounts": [
 		//Mount local user profile into container to allow copying of data
