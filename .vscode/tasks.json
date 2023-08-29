@@ -7,9 +7,7 @@
             "label": "Jekyll: Build Dev",
             "detail": "bundle exec jekyll build",
             "type": "shell",
-            "linux": {
-                "command": "bundle exec jekyll build"
-            },
+            "command": "bundle exec jekyll build",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -32,9 +30,7 @@
             "label": "Jekyll: Serve Dev",
             "detail": "bundle exec jekyll serve",
             "type": "shell",
-            "linux": {
-                "command": "bundle exec jekyll server --livereload"
-            },
+            "command": "bundle exec jekyll server --livereload",
             "group": {
                 "kind": "build",
                 "isDefault": true
