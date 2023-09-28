@@ -1,11 +1,11 @@
 ---
-title: "Ephesus Jekyll Blog Theme"
-date: 2021-09-22T00:00:00+00:00
-author: Hakan Torun
+title: "Use VS Code devcontainers and avoiding lengthy setup tutorials"
+date: 2023-09-24T18:08:15+00:00
+author: Jaideep Padhye
 layout: post
-permalink: /ephesus-jekyll-blog-theme/
-categories: Genel
-tags: [ephesus, jekyll]
+permalink: /vscode-dev-containers/
+categories: VS Code, Developer Tools, Docker container
+tags: [devtools, docker, vscode]
 ---
 Lorem markdownum nimiumque inutile ulterius tum fluctus arbore aethere in
 laqueosque lorisque tabuerit. Timor pectoraque vetus conspiceris donis arbitrium

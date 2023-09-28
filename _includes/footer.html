@@ -1,4 +1,11 @@
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 	<script src="assets/js/ephesus.js"></script>
+	<script src="assets/js/gitquery.js"></script>
+	<script type="text/javascript">
+    	$(function() {
+        $("#display-projects").getRepos("jpadhye");
+    	});
+	</script>
 	<script type="text/javascript">
 		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
 			document.documentElement.setAttribute('data-theme', 'dark');

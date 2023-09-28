@@ -1,12 +1,41 @@
 ---
 layout: default
 ---
-<div class="post-container">
-	{% for post in paginator.posts %}
-        <div class="post-list">
-            <a class="post-title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%d.%m.%Y" }}</time>
+<div class="hero-section">
+    <div class="left-hero">
+        <div class="inner-hero">
+            <div class="inner-hero-item">
+                <h2>Activity</h2>
+            </div>
+
+            <div class="inner-hero-item inner-hero-item-border">
+                <img
+                    src="https://wakatime.com/share/@53642887-e80e-4ec5-8423-661d970f3c72/1e5d1068-c474-41b2-a49e-0df05dc8fa02.svg">
+            </div>
+            <div class="inner-hero-item inner-hero-item-border">
+                <img
+                    src="https://wakatime.com/share/@53642887-e80e-4ec5-8423-661d970f3c72/a5b80d99-c601-4e1b-904f-c746dbfc8615.png" />
+            </div>
         </div>
+    </div>
+    <div class="right-hero">
+        <div class="inner-hero">
+            <div class="inner-hero-item">
+                <h2>Projects</h2>
+            </div>
+            <div id="display-projects"></div>
+        </div>
+
+    </div>
+</div>
+
+<div class="post-container">
+    <h2>Posts</h2>
+    {% for post in paginator.posts %}
+    <div class="post-list">
+        <a class="post-title" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%d.%m.%Y" }}</time>
+    </div>
     {% endfor %}
 </div>
 {% include pagination.html %}
